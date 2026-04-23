@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let find = prompt('dien tu')
+        let eng = ["apple","banana","mango","grape"]
+        let vi = ["táo","chuối","xoài","nho"]
+        let index = -1
+        let result =''
+        for(let i=0;i<eng.length;i++){
+            if(find == eng[i]){
+               index =i ;
+            }
+            
+        }
+        if(index> -1){
+            
+            result=vi[index]
+
+           alert(result)
+        }
+        else {
+            alert( find + " not found");
+        }
+    </script>
+</body>
+</html>

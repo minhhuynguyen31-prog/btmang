@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers ="025468"
+        let arr = numbers.split('');
+        let res = [];
+        for(let i=0;i,i<arr.length;i++){
+            res.push(arr[i])
+            if(arr[i]%2==0&& arr[i+1]%2==0){
+                res.push("-")
+            }
+        }
+        document.write(res.join(''))</script>
+</body>
+</html> 
